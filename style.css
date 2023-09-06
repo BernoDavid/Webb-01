@@ -1,0 +1,71 @@
+body { background-color: rgb(159, 182, 182);
+            
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.main-header {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+p {
+    display: flex; 
+    justify-content: center;
+    align-items: center;    
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 3px solid rgb(212, 74, 74);
+}
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+.container {
+    position: relative;
+}
+
+.animated-element {
+    width: 100px;
+    height: 1oopx;
+    background-color: blueviolet;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.following-text {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+    
+
