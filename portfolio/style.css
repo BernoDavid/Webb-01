@@ -1,5 +1,6 @@
-body { background-color: rgb(35, 168, 168);
-    font-family: cursive;   
+body {
+    font-family: cursive;
+    background-image: url(img_simon.jpg);
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
     display:flex;
     justify-content: center;
     width:100%;
+
 }
 
 p {
@@ -43,7 +45,7 @@ img {
 .animated-element {
     width: 100px;
     height: 100px;
-    background-color: rgb(147, 126, 166);
+    background-color: rgb(46, 18, 73);
     transition: transform 3s ease-in-out;
 }
 
@@ -88,19 +90,51 @@ nav a {
 nav a:hover {
     background: #6f3d3d;
 }
-
-.video{
+    
+.video {
     margin: 2cm;
     display: flex;
     justify-content: center;
 }
 
-.primaryheaders{
+.primaryheaders {
     display: flex;
     justify-content: flex-end;
 }
 
-.carvideo{
+.carvideo {
     border: 3px solid rgb(65, 2, 2);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 4%;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button:hover {
+    background-color: darkred;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+button:active {
+    transform: scale(1.5);
+}
+
+.parallax {
+    background-image: url("img_simon.png")
 }
 
